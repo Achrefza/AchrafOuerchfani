@@ -12,13 +12,13 @@ import {
 } from "lucide-react";
 
 export const profile = {
-  name: "Achref Ouerchfeni",
+  name: "Achraf Ouerchfani",
   role: "IT Engineer",
   location: "Rome, Italy",
   headline:
     "Cybersecurity • Artificial Intelligence • Automation • Technology Consulting",
-  email: "achref.ouerchfeni@example.com",
-  linkedIn: "https://www.linkedin.com/",
+  email: "achrefouerchfani.contact@gmail.com",
+  linkedIn: "https://www.linkedin.com/in/achref-ouerchfani/",
   cvUrl: "/Achref-Ouerchfeni-CV.pdf",
 };
 
@@ -38,29 +38,38 @@ export const metrics = [
 ];
 
 export const experiences = [
+  
   {
-    period: "2024 — Present",
-    title: "IT Engineering Consultant",
-    company: "Enterprise Technology Advisory",
-    description:
-      "Designing secure, automated and AI-enabled technology solutions for complex operational environments, with a focus on reliability, governance and measurable business outcomes.",
-    highlights: ["Security architecture", "AI workflow enablement", "Executive-ready documentation"],
-  },
-  {
-    period: "2022 — 2024",
+    period: "10/2025 — 04/2026",
     title: "Cybersecurity & Infrastructure Engineer",
-    company: "Technology Operations",
+    company: "Tunisiatech",
     description:
-      "Delivered infrastructure hardening, vulnerability management and incident-readiness improvements across hybrid environments while improving operational observability.",
-    highlights: ["Risk reduction", "Cloud and network controls", "Automation playbooks"],
+      "Participated in security assessments of enterprise Linux-based web infrastructures, reviewing system architectures, server configurations and security controls to identify weaknesses and areas for improvement. Contributed to vulnerability assessments and risk analysis engagements, recommended hardening measures for applications, operating systems and network services, and documented findings and remediation strategies in technical security reports.",
+    highlights: ["Security Assessment", "Linux Security", "Risk Analysis","Security Hardening"],
   },
   {
-    period: "2020 — 2022",
+    period: "10/2025 — 04/2026",
+    title: "Cybersecurity & AI Security Engineering Intern",
+    company: "Voguel Consulting",
+    description:
+      "Contributed to the design and deployment of a SIEM infrastructure for centralized security monitoring and incident detection. Developed an AI-assisted threat detection platform capable of analyzing screenshots and textual content in real time using machine learning techniques for malicious content detection and behavioral analysis. Automated threat detection, data enrichment and incident investigation workflows in Python while integrating security logs, threat intelligence feeds and detection rules to improve visibility across monitored environments and support incident response activities.",
+    highlights: ["SIEM", "AI Security", "Python","Threat Detection","Incident Response"],
+  },
+  {
+    period: "06/2024 – 08/2024",
     title: "Systems & Automation Specialist",
     company: "Digital Transformation Programs",
     description:
-      "Built scripts, dashboards and integration workflows that reduced repetitive support activity and increased the speed and consistency of engineering delivery.",
-    highlights: ["Process automation", "Monitoring dashboards", "Cross-functional delivery"],
+      "Developed network traffic analysis tools to identify suspicious behavior and potential attack patterns while gaining hands-on experience in application security assessments and vulnerability analysis. Studied phishing campaigns, credential theft techniques and network-based threats, documented security findings, and collaborated on recommendations aimed at improving secure development practices and reducing organizational risk.",
+    highlights: ["Network Security", "Threat Analysis", "Vulnerability Assessment","Application Security"],
+  },
+  {
+    period: "06/2023 – 07/2023",
+    title: "Software Development Intern",
+    company: "Digital Transformation Programs",
+    description:
+      "Contributed to the development of an internal employee and payroll management platform using Symfony, supporting the implementation of business features, testing and maintenance activities. Automated administrative workflows and participated in debugging and optimization efforts to improve reliability and operational efficiency.",
+    highlights: ["Symfony", "Web Development", "Automation","Databases",],
   },
 ];
 

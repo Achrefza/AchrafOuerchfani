@@ -57,8 +57,8 @@ export const experiences = [
   },
   {
     period: "06/2024 – 08/2024",
-    title: "Systems & Automation Specialist",
-    company: "Digital Transformation Programs",
+    title: "Cybersecurity Intern",
+    company: "Pwn & Patch",
     description:
       "Developed network traffic analysis tools to identify suspicious behavior and potential attack patterns while gaining hands-on experience in application security assessments and vulnerability analysis. Studied phishing campaigns, credential theft techniques and network-based threats, documented security findings, and collaborated on recommendations aimed at improving secure development practices and reducing organizational risk.",
     highlights: ["Network Security", "Threat Analysis", "Vulnerability Assessment","Application Security"],
@@ -103,11 +103,9 @@ export const projects = [
 export const certifications = [
   "CompTIA Security+",
   "Cisco CCNA 1 & 2",
-  "Cisco CyberOps Associate"
+  "Cisco CyberOps Associate",
   "TryHackMe Junior Penetration Tester",
   "TryHackMe Red Teamer",
-  "Cisco CyberOps Associate",
-  
 ];
 
 export const skillGroups = [

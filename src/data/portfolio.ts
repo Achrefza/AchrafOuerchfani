@@ -9,6 +9,7 @@ import {
   Sparkles,
   Trophy,
   Workflow,
+  Systems,
 } from "lucide-react";
 
 export const profile = {

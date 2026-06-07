@@ -98,7 +98,7 @@ export const projects = [
     technologies: ["Wazuh", "ELK Stack", "IRIS", "Linux", "Threat Detection"],
     outcome: "Built a fully operational SOC environment for monitoring, detection and investigation of security events.",
   },
-
+},
 
 export const certifications = [
   "CompTIA Security+",

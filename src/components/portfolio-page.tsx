@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   ArrowDown,
   ArrowRight,
@@ -178,7 +179,7 @@ export function PortfolioPage() {
           <div className="mt-16 grid gap-5 lg:grid-cols-2">
             {projects.map((project, index) => (
               <Reveal key={project.slug} delay={index * 0.06}>
-                <a href={`/projects/${project.slug}`} className="group block h-full rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/[0.065] to-white/[0.025] p-6 transition hover:-translate-y-1 hover:border-blue-300/30 sm:p-8">
+                <Link href={`/projects/${project.slug}`} className="group block h-full rounded-[2rem] border border-white/10 bg-gradient-to-b from-white/[0.065] to-white/[0.025] p-6 transition hover:-translate-y-1 hover:border-blue-300/30 sm:p-8">
                   <div className="flex items-start justify-between gap-6">
                     <h3 className="text-2xl font-semibold tracking-[-0.04em] text-white">{project.title}</h3>
                     <ExternalLink className="h-5 w-5 shrink-0 text-zinc-500 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-blue-200" />
@@ -193,7 +194,7 @@ export function PortfolioPage() {
                     <p className="text-xs font-semibold uppercase tracking-[0.2em] text-zinc-500">Outcome</p>
                     <p className="mt-2 text-sm leading-6 text-zinc-300">{project.outcome}</p>
                   </div>
-                </a>
+                </Link>
               </Reveal>
             ))}
           </div>

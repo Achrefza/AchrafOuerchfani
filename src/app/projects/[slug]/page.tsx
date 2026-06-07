@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { ArrowLeft, CheckCircle2 } from "lucide-react";
 import { notFound } from "next/navigation";
 import { projects, profile } from "@/data/portfolio";
@@ -29,9 +30,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     <main className="min-h-screen bg-[#050506] px-5 py-12 text-white sm:px-8">
       <div className="pointer-events-none fixed inset-0 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.16),transparent_38%)]" />
       <article className="relative mx-auto max-w-4xl">
-        <a href="/" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-zinc-300 transition hover:text-white">
+        <Link href="/" className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm text-zinc-300 transition hover:text-white">
           <ArrowLeft className="h-4 w-4" /> Back to portfolio
-        </a>
+        </Link>
         <div className="mt-12 rounded-[2rem] border border-white/10 bg-white/[0.04] p-7 backdrop-blur sm:p-10">
           <p className="text-sm font-medium uppercase tracking-[0.24em] text-blue-200">Project case study</p>
           <h1 className="mt-5 text-4xl font-semibold tracking-[-0.055em] sm:text-6xl">{project.title}</h1>

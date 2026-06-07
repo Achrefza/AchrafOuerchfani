@@ -75,48 +75,39 @@ export const experiences = [
 
 export const projects = [
   {
-    slug: "secure-ai-operations",
-    title: "Secure AI Operations Framework",
+    slug: "AI-Threat-Detection",
+    title: "AI-Powered Threat Detection Platform",
     description:
-      "A governance-first framework for adopting AI assistants, knowledge retrieval and automation while protecting sensitive enterprise data.",
-    technologies: ["AI Governance", "RAG", "Security Controls", "Policy Design"],
-    outcome: "Reduced AI adoption risk with documented controls, review loops and executive reporting.",
+      "Developed a Python-based platform leveraging machine learning models for malware and phishing detection.Integrated VirusTotal intelligence feeds and SIEM events with automated alert generation, threat classification and risk scoring.",
+    technologies: ["Python", "TensorFlow", "PyTorch", "Scikit-Learn","VirusTotal"],
+    outcome: "Automated threat prioritization and accelerated security investigations.",
   },
   {
-    slug: "vulnerability-intelligence",
-    title: "Vulnerability Intelligence Dashboard",
+    slug: "Threat-hunting",
+    title: "Threat Hunting & Threat Intelligence Platform",
     description:
-      "Unified security findings, asset context and remediation ownership into a concise operational dashboard for technical and leadership audiences.",
-    technologies: ["Python", "SIEM", "Power BI", "Risk Scoring"],
-    outcome: "Improved remediation prioritization and shortened reporting cycles from days to hours.",
+      "Integrated multiple open-source security tools into a unified threat hunting ecosystem.Implemented threat intelligence collection, correlation and investigation workflows to enable proactive threat detection.",
+    technologies: ["MISP", "Caldera", "Threat Intelligence", "Threat Hunting","Security Automation"],
+    outcome: "Improved visibility into threats through centralized intelligence collection and correlation.",
   },
   {
-    slug: "infrastructure-automation",
-    title: "Infrastructure Automation Suite",
+    slug: "SOC",
+    title: "Open Source Security Operations Center (SOC)",
     description:
-      "Reusable automation for provisioning, compliance checks, system inventory and repeatable operations across hybrid environments.",
-    technologies: ["TypeScript", "Bash", "Terraform", "CI/CD"],
-    outcome: "Standardized delivery patterns and reduced manual operational effort.",
+      "Designed and deployed a complete SOC environment using Wazuh, ELK Stack and IRIS.Implemented centralized log collection, event correlation, monitoring dashboards and incident investigation workflows.",
+    technologies: ["Wazuh", "ELK Stack", "IRIS", "Linux", "Threat Detection"],
+    outcome: "Built a fully operational SOC environment for monitoring, detection and investigation of security events.",
   },
-  {
-    slug: "identity-hardening",
-    title: "Identity Security Hardening",
-    description:
-      "A pragmatic identity security initiative covering access reviews, MFA enforcement, privilege reduction and audit-ready evidence.",
-    technologies: ["IAM", "Zero Trust", "Microsoft 365", "Automation"],
-    outcome: "Strengthened identity posture while improving clarity for compliance stakeholders.",
-  },
-];
+
 
 export const certifications = [
-  "Cybersecurity Fundamentals",
-  "Cloud Architecture Foundations",
-  "AI for Business & Engineering",
-  "Network Security Essentials",
-  "ITIL & Service Management",
-  "DevOps Foundations",
-  "Linux Systems Administration",
-  "Data Privacy & Governance",
+  "CompTIA Security+",
+  "Cisco CCNA 1 & 2",
+  "Cisco CyberOps Associate"
+  "TryHackMe Junior Penetration Tester",
+  "TryHackMe Red Teamer",
+  "Cisco CyberOps Associate",
+  
 ];
 
 export const skillGroups = [
@@ -126,29 +117,34 @@ export const skillGroups = [
     skills: ["Systems thinking", "Solution architecture", "Requirements analysis", "Technical documentation"],
   },
   {
-    title: "Cybersecurity",
+    title: "Security Operations",
     icon: ShieldCheck,
-    skills: ["Risk assessment", "Vulnerability management", "IAM", "Security hardening"],
+    skills: ["SOC", "SIEM", "Threat Hunting", "Incident Response", "Threat Intelligence","Vulnerability Assessment"],
   },
   {
-    title: "Artificial Intelligence",
-    icon: BrainCircuit,
-    skills: ["AI workflow design", "Prompt systems", "RAG concepts", "Governance controls"],
+    title: "Security Tools",
+    icon: ShieldCheck,
+    skills: ["Wazuh", "ELK Stack", "IRIS", "MISP","Caldera","Wireshark","Nmap","Burp Suite","Nessus","Metasploit","VirusTotal"],
   },
   {
     title: "Programming",
     icon: Code2,
-    skills: ["TypeScript", "Python", "Bash", "API integration"],
+    skills: ["Python", "C", "C++", "Java","C#"],
   },
   {
-    title: "Infrastructure",
+    title: "Machine Learning",
     icon: Network,
-    skills: ["Linux", "Networking", "Monitoring", "Virtualization"],
+    skills: ["TensorFlow", "PyTorch", "Scikit-Learn"],
   },
   {
-    title: "Cloud & DevOps",
-    icon: CloudCog,
-    skills: ["CI/CD", "Terraform", "Containers", "Cloud security"],
+    title: "Systems",
+    icon: Systems,
+    skills: ["Linux", "Windows"],
+  },
+  {
+    title: "Databases & Web",
+    icon: Database,
+    skills: ["Symfony", "Spring","ASP.NET","MySQL","Oracle","SQL"],
   },
 ];
 

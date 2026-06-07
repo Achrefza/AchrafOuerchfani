@@ -1,5 +1,6 @@
 import {
   GraduationCap,
+  BriefcaseBusiness,
   ShieldCheck,
   Shield,
   Code2,

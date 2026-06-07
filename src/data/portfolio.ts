@@ -1,11 +1,11 @@
 import {
-  BrainCircuit,
-  BriefcaseBusiness,
-  CloudCog,
-  Code2,
   GraduationCap,
-  Network,
   ShieldCheck,
+  Shield,
+  Code2,
+  BrainCircuit,
+  Monitor,
+  Database,
   Sparkles,
   Trophy,
   Workflow,
@@ -122,7 +122,7 @@ export const skillGroups = [
   },
   {
     title: "Security Tools",
-    icon: ShieldCheck,
+    icon: Shield,
     skills: ["Wazuh", "ELK Stack", "IRIS", "MISP","Caldera","Wireshark","Nmap","Burp Suite","Nessus","Metasploit","VirusTotal"],
   },
   {
@@ -132,12 +132,12 @@ export const skillGroups = [
   },
   {
     title: "Machine Learning",
-    icon: Network,
+    icon: BrainCircuit,
     skills: ["TensorFlow", "PyTorch", "Scikit-Learn"],
   },
   {
     title: "Systems",
-    icon: Network,
+    icon: Monitor,
     skills: ["Linux", "Windows"],
   },
   {

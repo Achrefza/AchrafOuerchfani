@@ -9,7 +9,7 @@ import {
   Sparkles,
   Trophy,
   Workflow,
-  Systems,
+  
 } from "lucide-react";
 
 export const profile = {
@@ -137,7 +137,7 @@ export const skillGroups = [
   },
   {
     title: "Systems",
-    icon: Systems,
+    icon: Network,
     skills: ["Linux", "Windows"],
   },
   {
